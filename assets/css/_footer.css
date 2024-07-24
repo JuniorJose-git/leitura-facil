@@ -1,8 +1,9 @@
 footer{
-    font-size: x-small;
+    font-size: smaller;
     text-align: center;
 }
 
 footer p {
     display: inline-block;
+    margin-right: 15px;
 }
