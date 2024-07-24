@@ -1,0 +1,15 @@
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.block {
+    display: block;
+}

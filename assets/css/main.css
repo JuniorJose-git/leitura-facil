@@ -2,10 +2,12 @@
 @import "_footer.css";
 @import "_search-bar.css";
 @import "_icon.css";
+@import "_utill.css";
+@import "_card-list.css";
 
 * {
     box-sizing: border-box;
-  }
+}
   
 body {
     background-color: var(--cor-fundo);
