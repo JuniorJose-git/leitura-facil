@@ -3,6 +3,10 @@
 @import "_search-bar.css";
 @import "_icon.css";
 
+* {
+    box-sizing: border-box;
+  }
+  
 body {
     background-color: var(--cor-fundo);
     font: 1.2em/1.62 sans-serif;

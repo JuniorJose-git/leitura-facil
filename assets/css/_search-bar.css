@@ -1,5 +1,8 @@
+
 header {
-    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .search-bar {
@@ -10,5 +13,6 @@ header {
     border: 0;
     padding: 0.5rem;
     color: var(--cor-text);
+    font-family: "fontello", sans-serif;
     
 }
