@@ -1,5 +1,6 @@
 @import "_colors.css";
 @import "_footer.css";
+@import "_search-bar.css";
 
 body {
     margin: 1em auto;
