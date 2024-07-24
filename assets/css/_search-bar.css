@@ -1,5 +1,10 @@
+header {
+    text-align: center;
+}
+
 .search-bar {
-    width: 100%;
+    width: 40rem;
     font-size: 1.5rem;
+    background-color: var(--cor-search-bar);
     
 }
