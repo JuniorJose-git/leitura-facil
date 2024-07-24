@@ -1,6 +1,7 @@
 @import "_colors.css";
 @import "_footer.css";
 @import "_search-bar.css";
+@import "_icon.css";
 
 body {
     background-color: var(--cor-fundo);
