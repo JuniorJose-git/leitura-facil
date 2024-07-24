@@ -6,6 +6,8 @@ header {
 }
 
 .search-bar {
+    margin-top: 7rem;
+    margin-bottom: 2rem;
     width: 40rem;
     font-size: 1rem;
     background-color: var(--cor-search-bar);
