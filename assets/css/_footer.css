@@ -2,3 +2,7 @@ footer{
     font-size: x-small;
     text-align: center;
 }
+
+footer p {
+    display: inline-block;
+}
