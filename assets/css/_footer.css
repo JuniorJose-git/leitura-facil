@@ -1,9 +1,11 @@
 footer{
-    font-size: smaller;
     text-align: center;
+    padding: 0.1rem;
 }
 
 footer p {
+    font-size: smaller;
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 1rem;
 }
+

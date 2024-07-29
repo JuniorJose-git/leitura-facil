@@ -1,3 +1,4 @@
+/* componentes css*/
 @import "_colors.css";
 @import "_footer.css";
 @import "_search-bar.css";
@@ -5,20 +6,33 @@
 @import "_utill.css";
 @import "_card-list.css";
 
+
+/* paginas css*/
+@import "home.css";
+@import "livro-pagina.css";
+
 * {
     box-sizing: border-box;
 }
   
 body {
-    background-color: var(--cor-fundo);
-    font: 1.2em/1.62 sans-serif;
+    font: 1.2em/1.62 "fontello", sans-serif;
     color: var(--cor-text);
+    padding: 0;
+    margin: 0;
 }
 
-main {
-    margin: 1em auto;
+.main {
+    margin: 0 auto;
     max-width: 40em;
     padding: 0 .62em;
 
 }
 
+.default-backgroud-color {
+    background-color: var(--cor-fundo);
+}
+
+.section {
+    padding: 1rem 0 2.66rem;
+}

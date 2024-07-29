@@ -1,0 +1,12 @@
+.section-continue-lendo {
+    background-color: var(--cor-fundo-continue-lendo);
+}
+.section-favoritos {
+    background-color: var(--cor-fundo-favoritos);
+}
+.section-recomendados {
+    background-color: var(--cor-fundo-recomendados);
+}
+.section-adicionado-recentimente {
+    background-color: var(--cor-fundo-adicionado-recentimente);
+}

@@ -13,3 +13,33 @@
 .block {
     display: block;
 }
+
+.taglist {
+    display: flex;
+}
+
+.tagitem {
+    margin: 0.4rem;
+    padding: 0 0.4rem;
+    border: 0.1rem solid var(--tag-item-color);
+    border-radius: 0.5rem; 
+    list-style-type: none;
+    font-size: 0.9rem;
+}
+
+.tagitem-marker {
+    color: var(--tag-item-color);
+    user-select: none;
+}
+
+/* 
+.tagitem {
+    border-radius: 1rem; 
+    color: aqua;
+    border: 0.15rem solid var(--tag-item-color);
+    background-color: var(--cor-fundo-search-bar);
+    color: var(--tag-item-color);
+    padding: 0.2rem 0.8rem;
+    margin-right: 1rem;
+    list-style-type: none;
+} */

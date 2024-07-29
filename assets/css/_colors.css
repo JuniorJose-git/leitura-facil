@@ -1,5 +1,9 @@
 :root {
     --cor-fundo:#242424;
     --cor-text: #ffffff;
-    --cor-search-bar: #3A3939;
+    --cor-fundo-search-bar: #3A3939;
+    --cor-fundo-continue-lendo: var(--cor-fundo);
+    --cor-fundo-favoritos: var(--cor-fundo);
+    --cor-fundo-recomendados: var(--cor-fundo);
+    --cor-fundo-adicionado-recentimente: var(--cor-fundo);
 }
