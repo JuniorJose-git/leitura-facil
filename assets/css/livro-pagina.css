@@ -1,4 +1,25 @@
 .capa-livro-div {
-    padding: 5rem 1rem 1rem 1rem;
-    max-width: 40%;
+    padding: 0 1rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-livro {
+    padding-top: 3rem;
+}
+
+.section-capitulos {
+    padding-top: 1.5rem;
+}
+
+.capitulos-div {
+    padding: 0.5rem;
+    background-color: var(--cor-fundo-capitulos);
+    border-radius: 2rem;
+}
+
+.capitulos-div .down-symbolic {
+    position: absolute;
+    right: 1rem;
 }

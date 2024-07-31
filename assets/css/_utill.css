@@ -10,12 +10,41 @@
     flex-wrap: wrap;
 }
 
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
 .block {
     display: block;
 }
 
-.taglist {
-    display: flex;
+.position-relative {
+    position: relative;
+}
+@media (min-width: 768px) {
+    .md-flex {
+        display: flex;
+    }
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.icon {
+    user-select: none;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .tagitem {

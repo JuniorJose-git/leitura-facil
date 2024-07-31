@@ -6,4 +6,7 @@
     --cor-fundo-favoritos: var(--cor-fundo);
     --cor-fundo-recomendados: var(--cor-fundo);
     --cor-fundo-adicionado-recentimente: var(--cor-fundo);
+
+    --cor-fundo-capitulos: #3A3939;
+
 }

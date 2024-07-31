@@ -5,6 +5,7 @@
 @import "_icon.css";
 @import "_utill.css";
 @import "_card-list.css";
+@import "_header.css";
 
 
 /* paginas css*/
@@ -26,7 +27,8 @@ body {
     margin: 0 auto;
     max-width: 40em;
     padding: 0 .62em;
-
+    position: relative;
+    z-index: 1;
 }
 
 .default-backgroud-color {

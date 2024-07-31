@@ -1,0 +1,27 @@
+header {
+    width: 100%;
+    position:fixed;
+}
+
+.header-util-div {
+    margin-top: 1.4rem;
+}
+
+.header-profile-picture {
+    width: 2.58rem;
+    height: 2.58rem;
+    background-image: url("/assets/img/teste.jpg");
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.header-icon-left {
+    margin-left: 2rem;
+}
+
+.header-icon-right {
+    margin-left: 1rem;
+}
