@@ -5,9 +5,6 @@
     font-size: 1.1rem;
 }
 
-.search-bar span {
-    user-select: none;
-}
 .search-bar input {
     width: 100%;
     outline: none;

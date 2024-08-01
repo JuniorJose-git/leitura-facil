@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/dark-theme.css" id="dark-theme">
 </head>
 <body class="default-backgroud-color">
     <header>
         <div class="flex">
             <div class="flex flex-grow-1 header-util-div">
                 <div class="flex-grow-1 flex">
-                    <span class="icon header-icon-left"></span>
-                    <span class="icon header-icon-right"></span>
+                    <i class="icon header-icon-left"></i>
+                    <i class="icon header-icon-right"></i>
                 </div>
-                <span class="icon"></span>
+                <i class="icon cursor-pointer" id="theme-icon"></i>
+                <script src="assets/js/script.js"></script>
             </div>
             <div class="header-profile-picture">
             </div>
@@ -24,16 +26,14 @@
         <section class="section">
             <div class="main">
                 <div class="search-bar flex">
-                    <span></span>
+                    <i class="icon"></i>
                     <input type="text" placeholder="Pesquisa">
                 </div>
             </div>
         </section>
-        <section>
-            <div class="main">
-                <hr>
-            </div>
-        </section>
+        <div class="main">
+            <hr>
+        </div>
         <section class="section section-continue-lendo">
             <div class="main">
                 <div class="">
@@ -172,7 +172,7 @@
             <hr>
         </div>
         <div>
-            <p>Todos os Direitos Reservados </p>
+            <p>&copy Todos os Direitos Reservados </p>
             <p>Idioma</p>
             <p>Privacidade</p>
             <p>Condições</p>

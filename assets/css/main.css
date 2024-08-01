@@ -38,3 +38,7 @@ body {
 .section {
     padding: 1rem 0 2.66rem;
 }
+
+i {
+    font-style: normal;
+}
