@@ -1,11 +1,11 @@
 /* componentes css*/
-@import "_colors.css";
-@import "_footer.css";
-@import "_search-bar.css";
-@import "_icon.css";
-@import "_utill.css";
-@import "_card-list.css";
-@import "_header.css";
+@import "./_colors.css";
+@import "./_footer.css";
+@import "./_search-bar.css";
+@import "./_icon.css";
+@import "./_utill.css";
+@import "./_card-list.css";
+@import "./_header.css";
 
 
 /* paginas css*/
