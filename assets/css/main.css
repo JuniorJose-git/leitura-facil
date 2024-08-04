@@ -24,6 +24,11 @@ body {
     margin: 0;
 }
 
+*:not(.tagitem)::selection {
+    color: var(--cor-fundo);
+    background-color: var(--cor-text);
+}
+
 .main {
     margin: 0 auto;
     max-width: 40em;

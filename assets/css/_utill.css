@@ -67,6 +67,11 @@
     font-size: 0.9rem;
 }
 
+.tagitem::selection {
+    background-color: var(--tag-item-color);
+    color: var(--cor-fundo);
+}
+
 .tagitem-marker {
     color: var(--tag-item-color);
     user-select: none;
