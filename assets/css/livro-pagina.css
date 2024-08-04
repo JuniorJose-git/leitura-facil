@@ -13,10 +13,15 @@
     padding-top: 1.5rem;
 }
 
+
+.capitulos-content {
+    padding: 1rem;
+}
+
 .capitulos-div {
     padding: 0.5rem;
     background-color: var(--cor-fundo-capitulos);
-    border-radius: 2rem;
+    border-radius: 1.5rem;
 }
 
 .capitulos-div .down-symbolic {

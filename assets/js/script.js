@@ -68,3 +68,22 @@ if (darkThemeCookie == "") {
         themeIcon.innerHTML = "";
     }
 }
+
+const showContentButton = document.querySelector("#showContent");
+
+content = document.querySelector(".capitulos-content");
+
+var isContentActive = false;
+
+showContentButton.addEventListener('click',() => {
+    
+    content.classList.toggle("d-none");
+    isContentActive = !isContentActive;
+
+    if (isContentActive) {
+        showContentButton.innerHTML = "";
+    } else {
+        showContentButton.innerHTML = "";
+    }
+
+});
