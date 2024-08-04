@@ -5,6 +5,9 @@
 .flex-center {
     justify-content: center;
 }
+.flex-around {
+    justify-content: space-around;
+}
 
 .flex-wrap {
     flex-wrap: wrap;
@@ -33,6 +36,14 @@
 
 .m-0 {
     margin: 0;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.pt-1 {
+    padding-top: 1rem;
 }
 
 .mb-0 {
@@ -64,15 +75,3 @@
 .cursor-pointer {
     cursor: pointer;
 }
-
-/* 
-.tagitem {
-    border-radius: 1rem; 
-    color: aqua;
-    border: 0.15rem solid var(--tag-item-color);
-    background-color: var(--cor-fundo-search-bar);
-    color: var(--tag-item-color);
-    padding: 0.2rem 0.8rem;
-    margin-right: 1rem;
-    list-style-type: none;
-} */

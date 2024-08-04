@@ -1,0 +1,38 @@
+.profile-section {
+
+    padding: 3rem 0;
+    border-radius: 2rem;
+    background-color: var(--cor-fundo-resalto);
+    background-image: url("./../img/teste2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.profile-section-2 p {
+    width: 6.5rem;
+}
+
+.profile-section-profile-picture {
+    width: 10rem;
+    height: 10rem;
+    background-image: url("./../img/teste.jpg");
+    border-radius: 50%;
+}
+
+.sobre-p {
+    padding: 0 2rem;
+}
+
+.profile-section-edit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    background-color: var(--cor-fundo-resalto);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

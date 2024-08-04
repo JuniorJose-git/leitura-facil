@@ -11,6 +11,7 @@
 /* paginas css*/
 @import "home.css";
 @import "livro-pagina.css";
+@import "perfil.css";
 
 * {
     box-sizing: border-box;

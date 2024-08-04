@@ -27,6 +27,8 @@
 <glyph glyph-name="left-symbolic" unicode="&#xe809;" d="M581-7l-313 313c-24 24-24 64 0 88l313 313c24 24 64 24 88 0s25-64 0-89l-268-268 268-268c25-25 25-64 0-89s-64-24-88 0z m0 0" horiz-adv-x="1000" />
 
 <glyph glyph-name="right-symbolic" unicode="&#xe80a;" d="M419-7l313 313c24 24 24 64 0 88l-313 313c-24 24-64 24-88 0s-25-64 0-89l268-268-268-268c-25-25-25-64 0-89s64-24 88 0z m0 0" horiz-adv-x="1000" />
+
+<glyph glyph-name="document-edit-symbolic" unicode="&#xe80b;" d="M767 798c-36 0-73-14-105-47l-563-563c-23-23-36-55-36-88v-188h187c33 0 65 14 88 37l563 563c112 111 5 274-118 285-5 1-10 1-16 1z m-111-225l67-67-442-441-66 66z m0 0" horiz-adv-x="1000" />
 </font>
 </defs>
 </svg>

@@ -2,11 +2,11 @@
     --cor-fundo:#ffffff;
     --cor-text: #242424;
     --cor-fundo-search-bar: #D9D9D9;
+    --cor-fundo-resalto: #D9D9D9;
     --cor-fundo-continue-lendo: var(--cor-fundo);
     --cor-fundo-favoritos: var(--cor-fundo);
     --cor-fundo-recomendados: var(--cor-fundo);
     --cor-fundo-adicionado-recentimente: var(--cor-fundo);
-
     --cor-fundo-capitulos: #D9D9D9;
 
 }
