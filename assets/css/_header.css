@@ -1,4 +1,4 @@
-header {
+.header {
     width: 100%;
     position:fixed;
 }
@@ -24,4 +24,41 @@ header {
 
 .header-icon-right {
     margin-left: 1rem;
+}
+
+.header-dropdow-menu {
+    position: fixed;
+    right: 1rem;
+    top: 4.5rem;
+    width: 21rem;
+    padding: 0rem 2rem;
+    border-radius: 2rem;
+    background-color: var(--cor-fundo-resalto);
+    z-index: 2;
+}
+
+.header-dropdow-menu .header-dropdow-menu-li-element {
+    padding: 0.4rem 0;
+}
+
+.header-dropdow-menu-profile-picture {
+    width: 4rem;
+    height: 4rem;
+    background-image: url("/assets/img/teste.jpg");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 0 1rem 0 0;
+}
+
+.header-dropdow-menu li .icon {
+    margin: 0 1rem;
+}
+.user{
+    padding-top: 0.4rem;
+    line-height: 1.4rem;
+}
+
+.at-user {
+    font-size: 0.9rem;
+    font-weight: bold;
 }

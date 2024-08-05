@@ -34,7 +34,6 @@ body {
     max-width: 40em;
     padding: 0 .62em;
     position: relative;
-    z-index: 1;
 }
 
 .default-backgroud-color {

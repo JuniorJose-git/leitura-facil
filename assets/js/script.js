@@ -69,21 +69,36 @@ if (darkThemeCookie == "") {
     }
 }
 
-const showContentButton = document.querySelector("#showContent");
 
-content = document.querySelector(".capitulos-content");
+if (document.querySelector("#showContent")) {
+    const showContentButton = document.querySelector("#showContent");
 
-var isContentActive = false;
+    content = document.querySelector(".capitulos-content");
 
-showContentButton.addEventListener('click',() => {
+    var isContentActive = false;
+
+    showContentButton.addEventListener('click',() => {
     
-    content.classList.toggle("d-none");
-    isContentActive = !isContentActive;
+        content.classList.toggle("d-none");
+        isContentActive = !isContentActive;
 
-    if (isContentActive) {
-        showContentButton.innerHTML = "";
-    } else {
-        showContentButton.innerHTML = "";
+        if (isContentActive) {
+            showContentButton.innerHTML = "";
+        } else {
+            showContentButton.innerHTML = "";
+        }
+    });
+}
+
+const headerProfilePecture = document.querySelector(".header-profile-picture");
+const headerDropdowMenu = document.querySelector(".header-dropdow-menu");
+
+headerProfilePecture.addEventListener('click',()=> {
+    headerDropdowMenu.classList.toggle("d-none");
+});
+
+document.addEventListener('click',(event) => {
+    if (!event.composedPath().includes(headerDropdowMenu) && !event.composedPath().includes(headerProfilePecture)) {
+        headerDropdowMenu.classList.add("d-none");
     }
-
 });

@@ -9,7 +9,7 @@
 </head>
 <body class="default-backgroud-color">
     <header>
-        <div class="flex">
+        <div class="flex header">
             <div class="flex flex-grow-1 header-util-div">
                 <div class="flex-grow-1 flex">
                     <i class="icon header-icon-left"></i>
@@ -17,10 +17,31 @@
                 </div>
                 <i class="icon cursor-pointer" id="theme-icon"></i>
             </div>
-            <a href="perfil.html">
-                <div class="header-profile-picture">
-                </div>
-            </a>
+            <div class="header-profile-picture cursor-pointer">
+            </div>
+        </div>
+        <div class="header-dropdow-menu d-none">
+            <ul class="p-0">
+                <li class="list-style-type-none flex">
+                    <div class="header-dropdow-menu-profile-picture">
+                    </div>
+                    <div class="user">
+                        <span>User</span><br>
+                        <span class="at-user">@User</span>
+                    </div>
+                </li>
+                <hr>
+                <li class="list-style-type-none header-dropdow-menu-li-element">
+                    <a class="reset-a flex flex-between" href="perfil.html">
+                        Meu perfil<i class="icon"></i>
+                    </a>
+                </li>
+                <li class="list-style-type-none header-dropdow-menu-li-element">
+                    <a class="reset-a flex flex-between" href="">
+                        Favoritos<i class="icon"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </header>
     <main>
