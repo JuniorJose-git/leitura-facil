@@ -31,15 +31,21 @@
     right: 1rem;
     top: 4.5rem;
     width: 21rem;
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
     border-radius: 2rem;
     background-color: var(--cor-fundo-resalto);
     z-index: 2;
 }
 
 .header-dropdow-menu .header-dropdow-menu-li-element {
-    padding: 0.4rem 0;
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
 }
+
+.header-dropdow-menu-li-element:hover {
+    background-color: var(--cor-fundo);
+}
+
 
 .header-dropdow-menu-profile-picture {
     width: 4rem;
