@@ -18,6 +18,12 @@
     margin-left: 3rem;
 }
 
+/* .header-profile-picture:hover {
+    width: 2.6rem;
+    height: 2.6rem;
+    border: .2rem solid var(--cor-fundo-resalto);
+} */
+
 .header-icon-left {
     margin-left: 2rem;
 }

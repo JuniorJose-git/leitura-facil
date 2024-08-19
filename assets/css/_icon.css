@@ -61,5 +61,7 @@
 .icon-left-symbolic:before { content: '\e809'; } /* '' */
 .icon-right-symbolic:before { content: '\e80a'; } /* '' */
 .icon-document-edit-symbolic:before { content: '\e80b'; } /* '' */
+.icon-person-symbolic:before { content: '\e80c'; } /* '' */
+.icon-heart-filled-symbolic:before { content: '\e80d'; } /* '' */
 
 
