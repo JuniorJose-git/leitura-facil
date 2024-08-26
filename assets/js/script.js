@@ -35,8 +35,10 @@ themeIcon.addEventListener('mouseleave', () => {
     }
 });
 
+var pox = document.cookie.indexOf('darkTheme');
+let darkThemeCookie = document.cookie.slice(pox,pox + 11);
 
-let darkThemeCookie = document.cookie.split(";")[0];
+console.log(darkThemeCookie);
 
 //detecta se o cookie de tema escuro existe, se nao existe faz o if
 if (darkThemeCookie == "") {
@@ -58,6 +60,8 @@ if (darkThemeCookie == "") {
     }
 
 } else {
+
+    console.log(darkThemeCookie.split("=")[1]);
 
     //detecta se o cookie de tema existe e se o tema escuro esta ativo, se 0 inativo.
     if (darkThemeCookie.split("=")[1] == 0) {
