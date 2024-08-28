@@ -7,6 +7,13 @@
     margin-top: 1.4rem;
 }
 
+.home {
+    margin-left: 2rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 2rem;
+    background-color: var(--cor-fundo-resalto);
+}
+
 .header-profile-picture {
     width: 2.58rem;
     height: 2.58rem;
@@ -24,13 +31,6 @@
     border: .2rem solid var(--cor-fundo-resalto);
 } */
 
-.header-icon-left {
-    margin-left: 2rem;
-}
-
-.header-icon-right {
-    margin-left: 1rem;
-}
 
 .header-dropdow-menu {
     position: fixed;
