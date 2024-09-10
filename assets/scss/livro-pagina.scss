@@ -5,6 +5,14 @@
 
 }
 
+.capa-livro-div img {
+    width: 15rem;
+    height: 23.9375rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    border: 0.07rem solid var(--cor-fundo-resalto);
+}
+
 .section-livro {
     padding-top: 3rem;
 }

@@ -8,8 +8,9 @@
 }
 
 .home {
+    margin-top: 1rem;
     margin-left: 2rem;
-    padding: 0.1rem 0.5rem;
+    padding: 0.4rem 1rem;
     border-radius: 2rem;
     background-color: var(--cor-fundo-resalto);
 }
@@ -17,7 +18,7 @@
 .header-profile-picture {
     width: 2.58rem;
     height: 2.58rem;
-    background-image: url("/assets/img/teste.jpg");
+    background-image: url("./../img/teste.jpg");
     background-repeat: no-repeat;
     border-radius: 2rem;
     margin-right: 2rem;
@@ -56,7 +57,7 @@
 .header-dropdow-menu-profile-picture {
     width: 4rem;
     height: 4rem;
-    background-image: url("/assets/img/teste.jpg");
+    background-image: url("./../img/teste.jpg");
     background-repeat: no-repeat;
     border-radius: 50%;
     margin: 0 1rem 0 0;
