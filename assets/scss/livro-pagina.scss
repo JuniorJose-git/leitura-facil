@@ -21,11 +21,6 @@
     padding-top: 1.5rem;
 }
 
-
-.capitulos-content {
-    padding: 0 1rem;
-}
-
 .capitulos-div {
     padding: 0.5rem;
     background-color: var(--cor-fundo-capitulos);
@@ -35,4 +30,13 @@
 .capitulos-div .down-symbolic {
     position: absolute;
     right: 1rem;
+}
+
+
+.capitulos-div li:hover {
+    background-color: var(--cor-fundo);
+}
+.capitulos-div li {
+    padding: 1rem;
+    border-radius: 1rem;
 }

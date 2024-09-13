@@ -75,13 +75,14 @@ if (darkThemeCookie == "") {
 
 
 if (document.querySelector("#showContent")) {
-    const showContentButton = document.querySelector("#showContent");
+    const showContent = document.querySelector("#showContent");
+    const showContentButton = document.querySelector("#showContentButton");
 
     content = document.querySelector(".capitulos-content");
 
     var isContentActive = false;
 
-    showContentButton.addEventListener('click',() => {
+    showContent.addEventListener('click',() => {
     
         content.classList.toggle("d-none");
         isContentActive = !isContentActive;
