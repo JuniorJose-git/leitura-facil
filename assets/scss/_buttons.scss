@@ -1,0 +1,18 @@
+.button--capitulos {
+    background-color: var(--cor-fundo-resalto);
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 1.1rem;    
+}
+
+.button--voltar_capitulos {
+    background-color: var(--cor-fundo-resalto);
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    border-radius: 2rem;
+} 
